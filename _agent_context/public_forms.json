@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "test_1223_xxe_erfassung",
+      "app_id": "6a044ccc8e5ab963989d840e",
+      "path": "/rest/apps/6a044ccc8e5ab963989d840e/records",
+      "allowed_fields": [
+        "titel",
+        "beschreibung",
+        "datum",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Test 1223 xxe Erfassung — Formular"
+    }
+  ]
+}
