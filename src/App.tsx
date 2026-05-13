@@ -6,7 +6,6 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { ErrorBusProvider } from '@/components/ErrorBus';
 import { Layout } from '@/components/Layout';
 import DashboardOverview from '@/pages/DashboardOverview';
-import { WorkflowPlaceholders } from '@/components/WorkflowPlaceholders';
 import AdminPage from '@/pages/AdminPage';
 import Test1223XxeErfassungPage from '@/pages/Test1223XxeErfassungPage';
 import PublicFormTest1223XxeErfassung from '@/pages/public/PublicForm_Test1223XxeErfassung';
@@ -26,7 +25,7 @@ export default function App() {
               {/* <public:routes> */}
               {/* </public:routes> */}
               <Route element={<Layout />}>
-                <Route index element={<><div className="mb-8"><WorkflowPlaceholders /></div><DashboardOverview /></>} />
+                <Route index element={<DashboardOverview />} />
                 <Route path="test-1223-xxe-erfassung" element={<Test1223XxeErfassungPage />} />
                 <Route path="admin" element={<AdminPage />} />
                 {/* <custom:routes> */}
